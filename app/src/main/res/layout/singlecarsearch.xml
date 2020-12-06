@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/swift"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvcarname"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="gklkg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="120dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvcartype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:text="kfrm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Price" />
+
+    <TextView
+        android:id="@+id/tvrate"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="klrmf"
+        android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvshowid"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="kermf" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
